@@ -5,4 +5,4 @@ Using relative and absolute positioning allowed me to position text over an imag
 
 Using form allowed me to set types of inputs and css user-valid to change the color based on if the input is valid or not.
 
-![alt text](image.png)
+![alt text](image-1.png)
