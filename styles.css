@@ -1,4 +1,8 @@
+@font-face{
+    font-family: testfont;
+    src: url('/norse/Norsebold.otf') format('opentype');
 
+}
 
 :root{
     --background1: #FFFFFF;
@@ -64,10 +68,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: calc(40vw);
-    min-width: calc(40vw);
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    flex-grow: 1;
     padding: 12px;
     gap: 1rem;
 
@@ -79,12 +81,17 @@ img{
 
 .odin-text{
     font-size: 4rem;
+    font-family: testfont;
     color: white;
 }
 
 .credit{
+    display: block;
+    text-align: center;
     position: absolute;
     bottom: 1rem;
+    left: 50%;
+    translate: -50% -50%;
     color: lightgrey;
 }
 
@@ -133,3 +140,11 @@ button{
     margin-bottom: 20px;
 }
 
+input:user-valid {
+    border-color: green;
+}
+
+
+input:user-invalid {
+    border-color: red;
+}
